@@ -22,9 +22,9 @@ const User = (props) => {
   return <div>Hi, I am {props.name}, and {props.age} years old! </div>
 }
 
-// User.defaultProps = {
-//   age: 1
-// }
+User.defaultProps = {
+  age: 1
+}
 User.propTypes = {
   name: propTypes.string,
   age: propTypes.number.isRequired
